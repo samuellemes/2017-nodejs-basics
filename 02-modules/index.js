@@ -12,6 +12,6 @@ console.log('Total of students: ', students.length)
 //     console.log(student.name)
 // }
 
-students.printName => console.log(student.name)
+const printName = ((student) => console.log(student.name))
 
 students.forEach(printName)

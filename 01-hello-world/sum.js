@@ -1,12 +1,12 @@
 
 
-let num1 = parseInt(process.argv[2])
-let num2 = parseInt(process.argv[3])
+let numberOne = parseInt(process.argv[2])
+let numberTwo = parseInt(process.argv[3])
 
-function sum (){
-
+function sum (number1, number2){
+    return number1+number2
 }
 
-let result = sum
+let result = sum(numberOne, numberTwo)
 
 console.log("Result sum: " + result)
